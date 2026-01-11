@@ -1,3 +1,40 @@
+/* CSS Variables */
+:root {
+  /* Color variables from tasks.module.css */
+  --primary-color: #0f172a;
+  --secondary-color: #334155;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+  --info-color: #3b82f6;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --border-radius: 0.75rem;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+  /* Color variables from reports.module.css */
+  --heat-0: #f3f4f6;
+  --heat-1: #d1d5db;
+  --heat-2: #9ca3af;
+  --heat-3: #64748b;
+  --heat-4: #334155;
+  --page-bg: #f9fafb;
+  --card-bg: #ffffff;
+  --border: #e5e7eb;
+  --fg: #111827;
+  --muted: #6b7280;
+}
+
 /* Ajustements pour la sidebar existante */
 .bg-gradient-to-b.from-slate-800.to-slate-900 {
   background: linear-gradient(180deg, #2d5a5a 0%, #4a9d9d 100%) !important;
